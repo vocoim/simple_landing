@@ -305,7 +305,7 @@ hr {
 .details-list_summary-item > i {
     color: #008ed6;
     display: inline-block;
-    width:20px;
+    width: 20px;
     height: 20px;
     text-align: center;
 }
@@ -341,5 +341,109 @@ hr {
     width: 59%;
 }
 
+.pricing-feedback {
+    background-image: url("images/contexte-flou-eleves-etudiant_23-2147666437.jpeg");
+    background-size: cover;
+}
 
+.visual_effect {
+    background-color:rgb(62 54 58 / 62%);
+}
 
+.pricing-feedback .wrapper > h4 {
+    text-align: center;
+    padding-top: 59px;
+    margin-top: 0;
+}
+
+.pricing-feedback .wrapper > h2 {
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+.pricing-feedback .wrapper h2.lines::before {
+    content: url("");
+    top: 73px;
+    left: 580px;
+}
+
+.pricing-feedback .wrapper h2.lines::after {
+    content: url("");
+    top: 73px;
+    left: 600px;
+}
+
+.feedback {
+    display: flex;
+    margin-top: 100px;
+    height: 408px;
+}
+
+.feedback_text {
+    width: 50%;
+    margin-left: 10px;
+    padding-right: 10px;
+    color: #ffffff;
+}
+
+.feedback_text > p {
+    font-size: 24px;
+    margin-top: 15px;
+    line-height: 32px;
+    padding-left: 4px;
+}
+
+.author_description {
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+
+.feedback_author {
+    display: flex;
+}
+
+.feedback_author > img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.feedback_author > div > p {
+    margin-top: 4px;
+    padding-left: 27px;
+    margin-bottom: 7px;
+}
+
+.download-line {
+    background-color: #000000;
+    height: 170px;
+}
+
+.download-line_info {
+    display: flex;
+    margin-left: 15px;
+    padding-top: 59px;
+}
+
+.download_text {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.download_text > span {
+    font-weight: 500;
+    font-size: 37px;
+}
+
+.download-line_info .buttons-area {
+    margin-left: 143px;
+    margin-top: 0;
+}
+
+.download-line_info .buttons-area .blue_button {
+    margin-left: 18px;
+}
