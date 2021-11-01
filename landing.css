@@ -384,7 +384,7 @@ hr {
 .feedback_text {
     width: 50%;
     margin-left: 10px;
-    padding-right: 10px;
+    padding-right: 12px;
     color: #ffffff;
 }
 
@@ -446,4 +446,58 @@ hr {
 
 .download-line_info .buttons-area .blue_button {
     margin-left: 18px;
+}
+.prices .wrapper > h4 {
+    text-align: center;
+    padding-top: 59px;
+    margin-top: 0;
+}
+
+.prices .wrapper > h2 {
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #060606;
+}
+
+.prices .wrapper h2.lines::before {
+    content: url("");
+    top: 73px;
+    left: 580px;
+}
+
+.prices .wrapper h2.lines::after {
+    content: url("");
+    top: 73px;
+    left: 600px;
+}
+
+.price-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.price-list_item {
+    border: 1px solid #767677;
+    margin: 65px 14px 14px 14px;
+}
+
+.price-list_item_title {
+    padding: 19px;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 1px solid #767677;
+}
+
+.price-list_item_price {
+    text-align: center;
+}
+
+.price-list_item_price-number {
+    display: flex;
+    align-items: row;
+
 }
