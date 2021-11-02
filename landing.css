@@ -496,8 +496,12 @@ hr {
     text-align: center;
 }
 
-.price-list_item_price-number {
-    display: flex;
-    align-items: row;
+.price-list_item_price-number > i {
+    display: inline-block;
+    text-align: center;
+}
 
+.price-list_item_price-number > div {
+    display: inline-block;
+    text-align: center;
 }
