@@ -60,6 +60,7 @@ h4 {
     cursor: pointer;
     border-radius: 3px;
     color: #ffffff;
+    border: none;
 }
 
 .blue_button {
@@ -75,6 +76,17 @@ h4 {
     height: 50px;
     border: 1px solid #767677;
     background-color: transparent;
+}
+
+.button:hover, .blue_button:hover {
+    background-color: #5098c7;
+    transition-duration: 0.2s;
+}
+
+.transparent_button:hover {
+    background-color: #adb0c7;
+    color: #45454b;
+    transition-duration: 0.2s;
 }
 
 header {
@@ -312,6 +324,7 @@ hr {
 
 .details-list_summary-item > p {
     display: inline;
+    margin-left: 10px;
 }
 
 .details {
@@ -347,7 +360,7 @@ hr {
 }
 
 .visual_effect {
-    background-color:rgb(62 54 58 / 62%);
+    background-color: rgb(62 54 58 / 62%);
 }
 
 .pricing-feedback .wrapper > h4 {
@@ -447,6 +460,7 @@ hr {
 .download-line_info .buttons-area .blue_button {
     margin-left: 18px;
 }
+
 .prices .wrapper > h4 {
     text-align: center;
     padding-top: 59px;
@@ -479,7 +493,7 @@ hr {
 }
 
 .price-list_item {
-    border: 1px solid #767677;
+    border: 1px solid #9C9C9D;
     margin: 65px 14px 14px 14px;
 }
 
@@ -489,11 +503,19 @@ hr {
     text-transform: uppercase;
     font-weight: 600;
     text-align: center;
-    border-bottom: 1px solid #767677;
+    border-bottom: 1px solid #9C9C9D;
 }
 
 .price-list_item_price {
     text-align: center;
+    padding: 20px 22px;
+    border-bottom: 1px solid #9C9C9D;
+}
+
+.price-list_item_price-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .price-list_item_price-number > i {
@@ -504,4 +526,206 @@ hr {
 .price-list_item_price-number > div {
     display: inline-block;
     text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.fas {
+    font-size: 27px;
+    padding-right: 2px;
+}
+
+.price-list_item_price > p {
+    margin-top: -4px;
+    font-size: 18px;
+}
+
+.price-list_item_text {
+    padding: 44px 37px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 25px;
+    color: #767677;
+}
+
+.price-list_item_text > span {
+    color: #008ed6;
+}
+
+.price-list_item .button {
+    margin: -2px 57px 28px;
+}
+
+.price-list_item .transparent_button {
+    color: #008ed6;
+    border: 1px solid #9C9C9D;
+}
+
+.price-list_item .transparent_button:hover {
+    background-color: #adb0c7;
+    color: #45454b;
+    transition-duration: 0.2s;
+}
+
+.active .price-list_item_title {
+    color: #008ed6;
+}
+
+.active .price-list_item_price {
+    background-color: #008ed6;
+    color: #FFFFFF;
+}
+
+.contacts {
+    background-color: #dbdbdc;
+    position: relative;
+}
+
+.contacts .wrapper > h4 {
+    text-align: center;
+    padding-top: 58px;
+    margin-top: 47px;
+}
+
+.contacts .wrapper > h2 {
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #060606;
+}
+
+.contacts .wrapper h2.lines::before {
+    content: url("");
+    top: 73px;
+    left: 580px;
+}
+
+.contacts .wrapper h2.lines::after {
+    content: url("");
+    top: 73px;
+    left: 600px;
+}
+
+.contacts-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 87px;
+    margin-bottom: 350px;
+}
+
+.contacts-list_item {
+    text-align: center;
+}
+
+.contacts-list_item-icon > i {
+    font-size: 30px;
+    color: #008ed6;
+}
+
+.contacts-list_item-text {
+    font-size: 18px;
+    margin-top: 26px;
+    line-height: 1.4em;
+}
+
+.contacts-field {
+    background-color: #000000;
+    position: absolute;
+    top: 422px;
+    left: 456px;
+    z-index: 2;
+    width: 768px;
+    height: 360px;
+}
+
+.contacts-values {
+    display: flex;
+}
+
+.contacts-field_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin-left: 54px;
+    margin-top: 48px;
+}
+
+.contacts-field_list-item {
+    background-color: transparent;
+    padding: 16px;
+    margin: 10px 20px 10px 10px;
+    width: 265px;
+    outline: none;
+    border: 1px solid #9C9C9D;
+    color: #9C9C9D;
+}
+
+textarea {
+    background-color: transparent;
+    margin-top: 59px;
+    width: 269px;
+    height: 157px;
+    outline: none;
+    resize: none;
+    color: #9C9C9D;
+    font-family: Source Sans Pro, sans-serif;
+    padding: 15px;
+}
+
+::placeholder {
+    text-transform: uppercase;
+    color: #9C9C9D;
+    font-weight: bold;
+    font-family: Source Sans Pro, sans-serif;
+}
+
+.contacts-field .blue_button {
+    font-size: 14px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    position: absolute;
+    bottom: 40px;
+    right: 84px;
+    outline: none;
+}
+
+iframe {
+    width: 100%;
+    height: 70vh;
+    border: none;
+    z-index: 1;
+}
+
+footer {
+    background-color: #000000;
+    padding-bottom: 30px;
+}
+
+.footer-icon_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icon_list > i {
+    font-size: 20px;
+    padding: 16px;
+    margin-top: 46px;
+    color: #9C9C9D;
+}
+
+.fa-twitter {
+    color: #008ed6;
+}
+
+.footer-rights {
+    text-transform: uppercase;
+    color: #9C9C9D;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
 }
