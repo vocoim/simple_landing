@@ -36,7 +36,7 @@ h4 {
 }
 
 .lines::before {
-    content: url(" ");
+    content: '';
     position: absolute;
     height: 2px;
     width: 18px;
@@ -44,7 +44,7 @@ h4 {
 }
 
 .lines::after {
-    content: url(" ");
+    content: '';
     position: absolute;
     height: 2px;
     width: 18px;
@@ -143,13 +143,13 @@ header > .wrapper {
 }
 
 .head-menu .lines::before {
-    content: url(" ");
+    content: '';
     bottom: -10px;
     left: 2px;
 }
 
 .head-menu .lines::after {
-    content: url(" ");
+    content: '';
     bottom: -10px;
     right: 3px;
 }
@@ -201,14 +201,14 @@ header > .wrapper {
 }
 
 .features > h2.lines::before {
-    content: url(" ");
+    content: '';
     bottom: -35px;
     left: 579px;
     width: 20px;
 }
 
 .features > h2.lines::after {
-    content: url(" ");
+    content: '';
     bottom: -35px;
     left: 601px;
     width: 20px;
@@ -280,14 +280,14 @@ hr {
 }
 
 .details_info > h2.lines::before {
-    content: url(" ");
+    content: '';
     bottom: -26px;
     left: 0;
     width: 20px;
 }
 
 .details_info > h2.lines::after {
-    content: url(" ");
+    content: '';
     bottom: -26px;
     left: 22px;
     width: 20px;
@@ -360,7 +360,7 @@ hr {
 }
 
 .visual_effect {
-    background-color: rgb(62 54 58 / 62%);
+    background-color: rgba(62, 54, 58, 0.62);
 }
 
 .pricing-feedback .wrapper > h4 {
@@ -377,13 +377,13 @@ hr {
 }
 
 .pricing-feedback .wrapper h2.lines::before {
-    content: url("");
+    content: '';
     top: 73px;
     left: 580px;
 }
 
 .pricing-feedback .wrapper h2.lines::after {
-    content: url("");
+    content: '';
     top: 73px;
     left: 600px;
 }
@@ -475,13 +475,13 @@ hr {
 }
 
 .prices .wrapper h2.lines::before {
-    content: url("");
+    content: '';
     top: 73px;
     left: 580px;
 }
 
 .prices .wrapper h2.lines::after {
-    content: url("");
+    content: '';
     top: 73px;
     left: 600px;
 }
@@ -595,13 +595,13 @@ hr {
 }
 
 .contacts .wrapper h2.lines::before {
-    content: url("");
+    content: '';
     top: 73px;
     left: 580px;
 }
 
 .contacts .wrapper h2.lines::after {
-    content: url("");
+    content: '';
     top: 73px;
     left: 600px;
 }
